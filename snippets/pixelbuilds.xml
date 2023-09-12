@@ -13,8 +13,15 @@
           fetch="https://github.com/PixelBuilds-Devices"
           revision="pb_alpha" />
 
+  <remote name="pixelbuilds-blobs"
+          fetch="https://gitlab.com/PixelBuilds/vendor-blobs"
+          revision="pb_alpha" />
+
   <remote name="github"
           fetch="https://github.com" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pixelbuilds-staging" />
