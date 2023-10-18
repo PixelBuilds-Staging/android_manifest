@@ -53,6 +53,7 @@
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/redfin-sepolicy" />
   <remove-project name="device/google/trout" />
+  <remove-project name="device/google/shusky" />
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
@@ -60,6 +61,7 @@
   <remove-project name="device/google/tangorpro-sepolicy" />
   <remove-project name="device/google/tangorpro-kernel" />
   <remove-project name="device/google/vrservices" />
+  <remove-project name="device/google/zuma" />
   <remove-project name="device/google_car" />
   <remove-project name="device/linaro/dragonboard" />
   <remove-project name="device/linaro/dragonboard-kernel" />

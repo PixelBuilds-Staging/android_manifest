@@ -48,6 +48,7 @@
 
   <!-- External repos -->
   <project path="external/libnl" name="android_external_libnl" remote="pixelbuilds" />
+  <project path="external/zstd" name="android_external_zstd" remote="pixelbuilds" />
 
   <!-- Hardware repos -->
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pixelbuilds" />
