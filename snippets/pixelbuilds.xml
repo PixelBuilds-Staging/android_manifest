@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="pixelbuilds"
-          fetch="https://github.com/PixelBuildsROM"
+          fetch="https://github.com/PixelBuilds-Staging"
           revision="unity" />
 
   <remote name="pixelbuilds-blobs-gitlab"
@@ -41,7 +41,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pixelbuilds" />
   <project path="kernel/configs" name="android_kernel_configs" remote="pixelbuilds" />
   <project path="manifest" name="android_manifest" remote="pixelbuilds" />
-  <project path="vendor/gms" name="android_vendor_gms" remote="pixelbuilds-gitea" clone-depth="1" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="pixelbuilds-gitea" revision="unity-staging" clone-depth="1" />
 
   <!-- Device repos -->
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="pixelbuilds" />
